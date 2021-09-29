@@ -41,3 +41,36 @@
 .header-end__item ~ .header-end__item {
 	margin-left: 30px;
 }
+
+.notification-item {
+	display: flex;
+	align-items: center;
+	padding: 20px;
+}
+
+.notification-item:hover {
+	background-color: var(--second-bg);
+}
+
+.notification-item > i {
+	margin-right: 20px;
+	font-size: 1.5rem;
+}
+
+.header-user {
+	display: flex;
+	align-items: center;
+}
+
+.header-user__img {
+	display: flex;
+	align-items: center;
+	border-radius: 50%;
+	overflow: hidden;
+	margin-right: 10px;
+}
+
+.header-user__name {
+	font-size: 1rem;
+	font-weight: 600;
+}

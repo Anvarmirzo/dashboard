@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Route } from 'react-router-dom';
 
-import './layout.css';
+import './Layout.css';
 
 import { Header, Sidebar } from '..';
 import { Routes } from './../../routers/Routes';

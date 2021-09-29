@@ -1,5 +1,5 @@
 import React from 'react';
-import './sidebar.css';
+import './Sidebar.css';
 import logo from '../../assets/images/react.svg';
 import sidebar_items from '../../assets/JsonData/sidebar_routes.json';
 import { Link } from 'react-router-dom';
