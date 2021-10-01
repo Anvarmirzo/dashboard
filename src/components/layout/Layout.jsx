@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import { BrowserRouter, Route } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
 import { Routes } from './../../routers/Routes';
-import './Layout.css';
+import './layout.css';
 
 import { Header, Sidebar } from '..';
 import {
