@@ -5,7 +5,7 @@ import userMenu from '../../assets/JsonData/user_menus.json';
 import userImg from '../../assets/images/user.svg';
 
 import { Link } from 'react-router-dom';
-import { Dropdown } from '../dropdown/Dropdown';
+import { ThemeMenu, Dropdown } from '..';
 
 const currUser = {
 	displayName: 'Anvar Ahmadjanov',
@@ -62,7 +62,7 @@ export const Header = () => {
 					/>
 				</div>
 				<div className='header-end__item'>
-					<Dropdown />
+					<ThemeMenu />
 				</div>
 			</div>
 		</header>
