@@ -7,11 +7,9 @@ import { Link } from 'react-router-dom';
 const SidebarItem = (props) => {
 	const active = props.active ? 'active' : '';
 	return (
-		<div className='sidebar-item'>
-			<div className={`sidebar-item__inner ${active}`}>
-				<i className={props.icon}></i>
-				<span>{props.title}</span>
-			</div>
+		<div className={`sidebar-item__inner ${active}`}>
+			<i className={props.icon}></i>
+			<span>{props.title}</span>
 		</div>
 	);
 };

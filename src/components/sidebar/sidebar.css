@@ -6,14 +6,11 @@
   top: 0;
   background-color: var(--main-bg);
   box-shadow: var(--box-shadow);
+  padding: 20px;
 }
 
 .sidebar-logo {
-  margin: 20px;
-}
-
-.sidebar-item {
-  padding: 0 20px;
+  margin-bottom: 20px;
 }
 
 .sidebar-item__inner {

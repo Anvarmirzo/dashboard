@@ -159,7 +159,7 @@ export const Dashboard = (props) => {
 		<>
 			<h2 className='page__title'>Dashboard</h2>
 			<div className='row'>
-				<div className='col-6'>
+				<article className='col-md-12 col-6'>
 					<div className='row'>
 						{statusCards.map((item, index) => (
 							<div className='col-6' key={index}>
@@ -171,8 +171,8 @@ export const Dashboard = (props) => {
 							</div>
 						))}
 					</div>
-				</div>
-				<div className='col-6'>
+				</article>
+				<article className='col-md-12 col-6'>
 					<div className='card full-height'>
 						<Chart
 							options={
@@ -185,8 +185,8 @@ export const Dashboard = (props) => {
 							height='100%'
 						/>
 					</div>
-				</div>
-				<div className='col-4'>
+				</article>
+				<article className='col-md-12 col-4'>
 					<div className='card'>
 						<div className='card-header'>
 							<h3>top customers</h3>
@@ -203,8 +203,8 @@ export const Dashboard = (props) => {
 							<Link to='/customers'>view all</Link>
 						</div>
 					</div>
-				</div>
-				<div className='col-8'>
+				</article>
+				<article className='col-md-12 col-8'>
 					<div className='card'>
 						<div className='card-header'>
 							<h3>latest orders</h3>
@@ -221,7 +221,7 @@ export const Dashboard = (props) => {
 							<Link to='/'>view all</Link>
 						</div>
 					</div>
-				</div>
+				</article>
 			</div>
 		</>
 	);

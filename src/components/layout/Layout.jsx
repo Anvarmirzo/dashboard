@@ -30,9 +30,9 @@ export const Layout = () => {
 						<Sidebar {...props} />
 						<div className='layout-content'>
 							<Header />
-							<div className='layout-content__main'>
+							<main className='layout-content__main'>
 								<Routes />
-							</div>
+							</main>
 						</div>
 					</div>
 				)}
